@@ -3,6 +3,21 @@
 
 }
 
+h1 {
+    color: #f4912d;
+    text-align: center;
+}
+
+h2 {}
+
+p {
+    color: #89cce5;
+}
+
+a {
+    color: #89cce5;
+}
+
 body {
     background-color: #202532;
 }
@@ -23,7 +38,7 @@ body {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: block;
     position: fixed;
 
 }
@@ -51,7 +66,7 @@ body {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    background-color: #f4912d
+    background-color: #f4912d;
 }
 
 /* Show the dropdown menu on hover */
@@ -66,32 +81,175 @@ body {
     background-color: #f4912d;
 }
 
-.all {
+.all_container {
     display: flex;
-    white-space: nowrap;
 
 }
 
+
+
 #kontakt_container {
-    height: 50vw;
+    height: 54vw;
     width: 100vw;
 
 }
 
 .kontakt_container {
-    width: 100px;
-    height: 50px;
     background-color: none;
 
 }
 
 #animation_container {
-    height: 50vw;
+    height: 54vw;
     width: 100vw;
 }
 
 .animation_container {
-    width: 100px;
-    height: 50px;
-    background-color: white;
+    background-color: #89cce5;
+}
+
+
+
+#flowchart h2 {
+    color: #f4912d;
+}
+
+#flowchart p {
+    color: #89cce5;
+}
+
+#flowchart_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.flowchart_container {
+    background-color: none;
+    overflow-y: auto;
+}
+
+.flow_chart_beskrivelse {
+    width: 30vw;
+    margin: 4px;
+
+}
+
+
+
+
+#Maalgruppebeskrivelse_container {
+    height: 54vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Maalgruppebeskrivelse_container {
+    background-color: #89cce5;
+
+}
+
+.maalgruppe_emma_beskrivelse {
+    width: 30vw;
+    margin: 4px;
+
+}
+
+.maalgruppe_emilie_beskrivelse {
+    width: 30vw;
+    margin: 4px;
+}
+
+
+
+
+#Maalgruppebeskrivelse p {
+    color: #202532;
+}
+
+#Maalgruppebeskrivelse img {
+    height: 19vw;
+    width: 34vw;
+}
+
+#Moodboard_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.Moodboard_container {
+    background-color: none;
+}
+
+
+#Styletile_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.Styletile_container {
+    background-color: #89cce5;
+}
+
+
+
+
+#Scenografi_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.Scenografi_container {
+    background-color: ;
+}
+
+#Layoutdiagram_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.Layoutdiagram_container {
+    background-color: #89cce5;
+}
+
+
+
+
+
+#Layoutdiagram_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.Layoutdiagram_container {
+    background-color: none;
+}
+
+#Sekvensdiagram_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.Sekvensdiagram_container {
+    background-color: none;
+}
+
+#Test_dokumentation_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.Test_dokumentation_container {
+    background-color: #89cce5;
+}
+
+
+
+#fotos_container {
+    height: 54vw;
+    width: 100vw;
+}
+
+.fotos_container {
+    background-color: none;
 }
