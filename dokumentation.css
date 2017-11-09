@@ -89,8 +89,9 @@ body {
 
 
 #kontakt_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 
 }
 
@@ -100,8 +101,11 @@ body {
 }
 
 #animation_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
+    align-content: center;
+    overflow: scroll;
 }
 
 .animation_container {
@@ -119,33 +123,45 @@ body {
 }
 
 #flowchart_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 66vw;
+
+    border-radius: 30px;
 }
 
 .flowchart_container {
     background-color: none;
     overflow-y: auto;
+    display: flex;
 }
 
 .flow_chart_beskrivelse {
     width: 30vw;
     margin: 4px;
+    flex-basis: 81vw;
 
+}
+
+#flowchart img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
 }
 
 
 
 
 #Maalgruppebeskrivelse_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
     display: flex;
     justify-content: space-around;
+    border-radius: 30px;
 }
 
 .Maalgruppebeskrivelse_container {
     background-color: #89cce5;
+
 
 }
 
@@ -168,35 +184,49 @@ body {
 }
 
 #Maalgruppebeskrivelse img {
-    height: 19vw;
-    width: 34vw;
+    height: 16vw;
+    width: 30vw;
+    border-radius: 30px;
 }
 
 #Moodboard_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 }
 
 .Moodboard_container {
     background-color: none;
 }
 
+#Moodboard img {
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
+}
+
 
 #Styletile_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 }
 
 .Styletile_container {
     background-color: #89cce5;
 }
 
-
+#Styletile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
 
 
 #Scenografi_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 }
 
 .Scenografi_container {
@@ -204,8 +234,9 @@ body {
 }
 
 #Layoutdiagram_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 }
 
 .Layoutdiagram_container {
@@ -216,18 +247,10 @@ body {
 
 
 
-#Layoutdiagram_container {
-    height: 54vw;
-    width: 100vw;
-}
-
-.Layoutdiagram_container {
-    background-color: none;
-}
-
 #Sekvensdiagram_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 }
 
 .Sekvensdiagram_container {
@@ -235,8 +258,9 @@ body {
 }
 
 #Test_dokumentation_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 }
 
 .Test_dokumentation_container {
@@ -246,8 +270,9 @@ body {
 
 
 #fotos_container {
-    height: 54vw;
-    width: 100vw;
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
 }
 
 .fotos_container {
