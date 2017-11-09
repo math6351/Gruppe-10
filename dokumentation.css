@@ -4,8 +4,11 @@
 }
 
 h1 {
-    color: #f4912d;
+    color: #89cce5;
     text-align: center;
+    margin: 20px;
+    text-decoration: underline overline;
+
 }
 
 h2 {}
@@ -32,13 +35,18 @@ body {
     border-color: #89cce5;
     cursor: pointer;
     position: fixed;
+    margin: 10px;
+    border-radius: 30px;
+    width: 218px;
+    border-style: dashed;
+
 }
 
 /* The container <div> - needed to position the dropdown content */
 
 .dropdown {
     position: relative;
-    display: block;
+    display: inline-block;
     position: fixed;
 
 }
@@ -52,6 +60,10 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: #89cce5;
+    opacity: 0.9;
 }
 
 /* Links inside the dropdown */
@@ -67,6 +79,7 @@ body {
 
 .dropdown-content a:hover {
     background-color: #f4912d;
+    border-radius: 30px;
 }
 
 /* Show the dropdown menu on hover */
@@ -88,18 +101,7 @@ body {
 
 
 
-#kontakt_container {
-    height: 47vw;
-    width: 50vw;
-    border-radius: 30px;
 
-
-}
-
-.kontakt_container {
-    background-color: none;
-
-}
 
 #animation_container {
     height: 47vw;
@@ -107,6 +109,7 @@ body {
     border-radius: 30px;
     align-content: center;
     overflow: scroll;
+    margin: 10px
 }
 
 .animation_container {
@@ -117,17 +120,21 @@ body {
 
 #flowchart h2 {
     color: #f4912d;
+    margin: 4px;
 }
 
 #flowchart p {
     color: #89cce5;
+    margin: 4px;
 }
 
 #flowchart_container {
     height: 47vw;
     width: 50vw;
-
+    margin: 10px;
     border-radius: 30px;
+    border-style: solid;
+    border-color: #89cce5;
 }
 
 .flowchart_container {
@@ -158,6 +165,8 @@ body {
     display: flex;
     justify-content: space-around;
     border-radius: 30px;
+    margin: 10px;
+    overflow: scroll;
 }
 
 .Maalgruppebeskrivelse_container {
@@ -194,6 +203,10 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    margin: 10px;
+    border-color: #89cce5;
+    border-style: solid;
+    overflow: scroll;
 }
 
 .Moodboard_container {
@@ -204,6 +217,7 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    opacity: 1.0;
 }
 
 
@@ -211,6 +225,8 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    margin: 10px;
+
 }
 
 .Styletile_container {
@@ -228,6 +244,10 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #89cce5;
+    overflow: scroll;
 }
 
 .Scenografi_container {
@@ -245,6 +265,8 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    margin: 10px;
+    overflow: scroll;
 }
 
 .Layoutdiagram_container {
@@ -259,6 +281,10 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #89cce5;
+    overflow: scroll;
 }
 
 .Sekvensdiagram_container {
@@ -269,6 +295,8 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    margin: 10px;
+    overflow: scroll;
 }
 
 .Test_dokumentation_container {
@@ -281,8 +309,28 @@ body {
     height: 47vw;
     width: 50vw;
     border-radius: 30px;
+    margin: 10px;
+    overflow: scroll;
 }
 
 .fotos_container {
     background-color: none;
+}
+
+#kontakt_container {
+    height: 47vw;
+    width: 50vw;
+    border-radius: 30px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #89cce5;
+
+
+}
+
+.kontakt_container {
+    background-color: none;
+    overflow: scroll;
+
+
 }
