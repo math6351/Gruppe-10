@@ -9,9 +9,12 @@ h1 {
     margin: 20px;
     text-decoration: underline overline;
 
+
 }
 
-h2 {}
+h2 {
+    color: #f4912d;
+}
 
 p {
     color: #89cce5;
@@ -19,6 +22,11 @@ p {
 
 a {
     color: #89cce5;
+    font-size: 1.2em;
+}
+
+button {
+    font-family: monospace;
 }
 
 body {
@@ -38,7 +46,6 @@ body {
     margin: 10px;
     border-radius: 30px;
     width: 13vw;
-
     border-style: dashed;
 
 }
@@ -65,6 +72,7 @@ body {
     border-style: dashed;
     border-color: #89cce5;
     opacity: 0.9;
+    width: 14vw;
 }
 
 /* Links inside the dropdown */
