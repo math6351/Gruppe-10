@@ -121,11 +121,14 @@ body {
 #flowchart h2 {
     color: #f4912d;
     margin: 4px;
+    text-align: center;
 }
 
 #flowchart p {
     color: #89cce5;
     margin: 4px;
+    text-align: center;
+
 }
 
 #flowchart_container {
@@ -135,12 +138,13 @@ body {
     border-radius: 30px;
     border-style: solid;
     border-color: #89cce5;
+
 }
 
 .flowchart_container {
     background-color: none;
     overflow-y: auto;
-    display: flex;
+    display: block;
 }
 
 .flow_chart_beskrivelse {
@@ -152,7 +156,7 @@ body {
 
 #flowchart img {
     width: 100%;
-    height: 70%;
+    height: 33vw;
     border-radius: 30px;
 }
 
